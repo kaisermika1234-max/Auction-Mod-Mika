@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "auctionmod",
+  "version": "2.2.0",
+  "name": "Mika Auction Mod Custom Time",
+  "description": "Client-side auction helper with custom duration",
+  "authors": ["Grand Regent Thragg"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.thragg.auctionmod.AuctionMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
